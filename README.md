@@ -5,6 +5,7 @@
 ---
 
 ## 🚀 Giới thiệu
+> ![image](https://github.com/user-attachments/assets/dccf1c39-69c6-460f-a998-6ea129578e16)
 
 **VSM Lecture Hub** là nền tảng lưu trữ và trình chiếu tài liệu PDF chuyên nghiệp, giao diện hiện đại, dễ sử dụng, hỗ trợ:
 
@@ -13,6 +14,14 @@
 - 🛠 **Admin**: quản lý hệ thống, phân quyền người dùng
 
 > Dự án được xây dựng với mục tiêu **miễn phí trọn đời**, tối ưu cho thiết bị di động, tablet và máy tính để bàn.
+> ![image](https://github.com/user-attachments/assets/ef7197ed-73fd-4d98-9458-eb427574dc37)
+> ![image](https://github.com/user-attachments/assets/160db08a-40c2-470e-8b2b-5bf24f098358)
+> ![image](https://github.com/user-attachments/assets/0de5cfc9-0d40-4e9b-9327-8d7bccf898bd)
+> ![image](https://github.com/user-attachments/assets/5a2eac69-22eb-4238-8e76-e54d5f9afd4e)
+> ![image](https://github.com/user-attachments/assets/32369b8c-40ba-4929-8f8d-7ca01bb1909b)
+
+
+
 
 ---
 
