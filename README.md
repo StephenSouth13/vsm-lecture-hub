@@ -1,6 +1,7 @@
 # 🎓 Hệ thống Lưu trữ Bài giảng VSM
 
 > Dự án được phát triển bởi tổ chức **Vietnam Student Marathon (VSM)** – phục vụ nhu cầu lưu trữ và trình chiếu tài liệu giảng dạy (PDF) cho giảng viên, sinh viên và quản trị viên tại các trường đại học.
+> Link demo: https://vsm-lecture-hub.onrender.com/login
 
 ---
 
