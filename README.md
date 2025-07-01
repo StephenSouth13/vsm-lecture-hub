@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🎓 Hệ thống Lưu trữ Bài giảng VSM
 
-## Project info
+> Dự án được phát triển bởi tổ chức **Vietnam Student Marathon (VSM)** – phục vụ nhu cầu lưu trữ và trình chiếu tài liệu giảng dạy (PDF) cho giảng viên, sinh viên và quản trị viên tại các trường đại học.
 
-**URL**: https://lovable.dev/projects/ef815667-3dbe-4834-92c3-11c7a1011e1b
+---
 
-## How can I edit this code?
+## 🚀 Giới thiệu
 
-There are several ways of editing your application.
+**VSM Lecture Hub** là nền tảng lưu trữ và trình chiếu tài liệu PDF chuyên nghiệp, giao diện hiện đại, dễ sử dụng, hỗ trợ:
 
-**Use Lovable**
+- 👨‍🏫 **Giảng viên**: upload, quản lý và trình chiếu tài liệu trực tiếp trên lớp
+- 🧑‍🎓 **Sinh viên**: xem và đánh dấu tài liệu yêu thích
+- 🛠 **Admin**: quản lý hệ thống, phân quyền người dùng
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ef815667-3dbe-4834-92c3-11c7a1011e1b) and start prompting.
+> Dự án được xây dựng với mục tiêu **miễn phí trọn đời**, tối ưu cho thiết bị di động, tablet và máy tính để bàn.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧩 Công nghệ sử dụng
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Công nghệ | Mô tả |
+|----------|-------|
+| `Vite + React + TypeScript` | Giao diện frontend tốc độ cao, responsive |
+| `Tailwind CSS + shadcn/ui` | Giao diện hiện đại, có Dark mode |
+| `Supabase` | Backend lưu trữ dữ liệu và tệp PDF (thay Firebase) |
+| `PostgreSQL + RLS` | Bảo mật phân quyền cấp bảng, cực kỳ an toàn |
+| `Next.js` (optional) | Sẵn sàng nâng cấp lên SSR khi cần |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📁 Tính năng nổi bật
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 📂 **Trang danh sách tài liệu**: dạng lưới 4 tài liệu/hàng, có tìm kiếm và lọc theo tháng/năm
+- 🖥 **Trình chiếu dạng Canva**: điều hướng ngang/dọc, xem tất cả trang ở footer
+- 🔐 **Đăng nhập bằng email tên miền `@vsm.org.vn`**
+- 🎨 **Dashboard CRM**: sidebar chuyên nghiệp, hỗ trợ dark mode
+- 👤 **Hồ sơ người dùng**: cập nhật ảnh, tên, chức vụ và gửi đề xuất chỉnh sửa đến Phòng CNTT
+- ❤️ **Yêu thích tài liệu**: đánh dấu và truy cập nhanh
+- 📆 **Lịch cá nhân (coming soon)**: tạo sự kiện, nhắc nhở như Google Calendar
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Cài đặt
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Clone source về máy:
+```bash
+git clone https://github.com/StephenSouth13/vsm-lecture-hub.git
+cd vsm-lecture-hub
+2. Cài đặt dependencies:
+bash
+Copy
+Edit
+npm install
+# hoặc dùng yarn nếu bạn thích
+3. Cấu hình .env kết nối Supabase:
+Tạo file .env từ .env.example, điền thông tin SUPABASE_URL và SUPABASE_ANON_KEY
+
+🧪 Chạy local
+bash
+Copy
+Edit
 npm run dev
-```
+Truy cập: http://localhost:5173
 
-**Edit a file directly in GitHub**
+🧑‍💻 Đóng góp
+Chào mừng mọi đóng góp từ cộng đồng VSM!
+Bạn có thể tạo issue hoặc gửi PR.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+👤 Tác giả
+Quách Thành Long
+📧 stephensouth1307@gmail.com
+🎓 Thành viên tổ chức Vietnam Student Marathon
+🛠 Dự án được phát triển bởi Phòng Công nghệ Thông tin – VSM
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ef815667-3dbe-4834-92c3-11c7a1011e1b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© Bản quyền
+@2025 Vietnam Student Marathon
+Được phát triển bởi Phòng Công nghệ Thông tin
